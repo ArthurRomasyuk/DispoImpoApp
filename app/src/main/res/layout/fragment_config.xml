@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/title_tv_config"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="@dimen/fragment_title_margin_top"
+        android:textSize="@dimen/fragment_title_size"
+        android:text="CONFIGURATION"/>
+    <EditText
+        android:id="@+id/login_ev_config"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textSize="16sp"
+        android:hint="LOGIN"
+        android:layout_below="@+id/title_tv_config" />
+    <EditText
+        android:id="@+id/password_ev_config"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textSize="16sp"
+        android:hint="PASS"
+        android:layout_below="@+id/login_ev_config"/>
+    <Spinner
+        android:id="@+id/shop_spinner_config"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:textSize="16sp"
+        android:hint="SHOP"
+        android:layout_below="@+id/password_ev_config"/>
+    <EditText
+        android:id="@+id/webservice_url_tv_config"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textSize="16sp"
+        android:hint="WEBSERVICE URL"
+        android:layout_below="@+id/shop_spinner_config"/>
+    <Button
+        android:id="@+id/connect_btn_config"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CONNECT"
+        android:layout_below="@+id/webservice_url_tv_config"/>
+</RelativeLayout>

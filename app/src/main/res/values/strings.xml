@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">DISPO-IMPO</string>
+    <string name="time_range_tag">TimeRange</string>
+    <string name="date_tag">Date</string>
+    <string name="dispo_tag">Dispo</string>
+    <string name="dispo_id_tag">DispoId</string>
+</resources>
